@@ -2,21 +2,39 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.ironhack-logo {
+  height: 6vmin;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.main-title {
+  font-size: 3em;
+  margin-left: 0.7em;
+  text-align: left;
+  max-width: 6em;
+  margin-bottom: 0;
+}
+
+.caption {
+  font-size: 1em;
+  margin-left: 2em;
+  max-width: 13em;
+  text-align: left;
+}
+
+.awesome {
+  height: 10vmin;
+  width: 20vmin;
 }
